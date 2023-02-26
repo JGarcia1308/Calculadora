@@ -1,0 +1,56 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#retroceso{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#resultado{
+    text-align: right;
+    border: 2px solid #0000ff;
+    border-radius: 2%;
+    margin: 3px;
+    padding: 3px;
+}
+
+#numeroActual{
+    text-align: right;
+    border: 2px solid #c0c0c0;
+    border-radius: 2%;
+    margin: 3px;
+    padding: 3px;
+}
+
+.botonCalc{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #0000ff;
+}
+
+.botonOp{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;    
+    background-color: #c0c0c0;
+}
+    
+#historial{
+    display: inline;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 3px;
+    position: relative;    
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+}

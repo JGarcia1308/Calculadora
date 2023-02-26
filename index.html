@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="calculadora"></div>
+    <div class="numeroDisplay" id="resultado">0</div>
+    <div class="numeroDisplay" id="numeroActual">0</div> 
+    <div id="retroceso" >
+        <button class="botonCalc" id="botonCE">CE</button>
+        <button class="botonCalc" id="borrar"><span style='font-size:20px;'>&#8678;</span></button>
+    </div>   
+    <div id="botones" class="grid-container">
+        <button class="botonCalc" id="boton1">1</button>
+        <button class="botonCalc" id="boton2">2</button>
+        <button class="botonCalc" id="boton3">3</button>
+        <button class="botonOp" id="suma">+</button>
+        <button class="botonCalc" id="boton4">4</button>
+        <button class="botonCalc" id="boton5">5</button>
+        <button class="botonCalc" id="boton6">6</button>
+        <button class="botonOp" id="resta">-</button>
+        <button class="botonCalc" id="boton7">7</button>
+        <button class="botonCalc" id="boton8">8</button>
+        <button class="botonCalc" id="boton9">9</button>
+        <button class="botonOp" id="multi">*</button>
+        <button class="botonOp" id="igual">=</button>
+        <button class="botonCalc" id="boton0">0</button>               
+        <button class="botonOp" id="botonPunto">.</button>
+        <button class="botonOp" id="division">/</button>        
+    </div>
+    </div>
+    
+    <div id="historial">        
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
